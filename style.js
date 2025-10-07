@@ -58,5 +58,5 @@ function createChalk(codes = []) {
   });
 }
 
-const ppc = createChalk();
-export default ppc;
+const chalk = createChalk();
+export default chalk;
