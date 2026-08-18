@@ -117,4 +117,4 @@ console.log(chalk.bold.rgb(236, 72, 153).bgRgb(30, 41, 59)('Styled RGB Text'));
 
 ## Lizenz
 
-MIT
+Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert.
