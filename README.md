@@ -25,6 +25,8 @@ Füge die Dateien `stylesMap.js` und den `chalk-light`-Code in dein Projekt ein 
 ├── stylesMap.js
 └── index.js
 ```
+> [IMPORTENT]
+> Die `stylesMap.js` ist aktuell Teil der `index.js` kann aber ausgelagert werden, wenn man noch mehr Styles hinzufügen will.
 
 ---
 
