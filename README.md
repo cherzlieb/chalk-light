@@ -1,4 +1,4 @@
-# chalk-light 🖍️
+# chalk-light
 
 Eine extrem Leichtgewichtige, Abhängigkeitsfreie (Dependency-Free) JavaScript-Bibliothek zur Formatierung und Einfärbung von Konsolenausgaben in Node.js mittels ANSI-Escape-Sequenzen und JavaScript Proxies.
 
@@ -6,17 +6,17 @@ Inspirierte Implementierung des beliebten `chalk`-Pakets, aber ohne externe Abh�
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📦 **Keine Abhängigkeiten**: Pure JavaScript (ES6+).
-- ⚡ **Extrem leicht**: Nur wenige Zeilen Code dank `Proxy`.
-- 🔗 **Chaining-Support**: Stile beliebig miteinander kombinieren (`chalk.bold.red('Text')`).
-- 🎨 **RGB & TrueColor Support**: Dynamische 24-Bit-Farben für Vorder- und Hintergrund (`rgb(r,g,b)` & `bgRgb(r,g,b)`).
-- 🪶 **Zero Config**: Einfach importieren und direkt nutzen.
+- **Keine Abhängigkeiten**: Pure JavaScript (ES6+).
+- **Extrem leicht**: Nur wenige Zeilen Code dank `Proxy`.
+- **Chaining-Support**: Stile beliebig miteinander kombinieren (`chalk.bold.red('Text')`).
+- **RGB & TrueColor Support**: Dynamische 24-Bit-Farben für Vorder- und Hintergrund (`rgb(r,g,b)` & `bgRgb(r,g,b)`).
+- **Zero Config**: Einfach importieren und direkt nutzen.
 
 ---
 
-## 📦 Installation / Einbindung
+## Installation / Einbindung
 
 Füge die Dateien `stylesMap.js` und den `chalk-light`-Code in dein Projekt ein oder erstelle ein passendes Modul:
 
@@ -31,7 +31,7 @@ Füge die Dateien `stylesMap.js` und den `chalk-light`-Code in dein Projekt ein 
 
 ---
 
-## 💡 Benutzung
+## Benutzung
 
 ### 1. Basisselektoren (Farben & Stile)
 
@@ -82,7 +82,7 @@ console.log(chalk.bold.rgb(236, 72, 153).bgRgb(30, 41, 59)('Styled RGB Text'));
 
 ---
 
-## 📋 Verfügbare Stile & Farben
+## Verfügbare Stile & Farben
 
 ### **Textstile**
 - `bold` (Fett)
@@ -105,7 +105,7 @@ console.log(chalk.bold.rgb(236, 72, 153).bgRgb(30, 41, 59)('Styled RGB Text'));
 
 ---
 
-## ⚙️ Wie es funktioniert
+## Wie es funktioniert
 
 `chalk-light` nutzt den JavaScript **`Proxy`**-Mechanismus:
 
@@ -115,6 +115,6 @@ console.log(chalk.bold.rgb(236, 72, 153).bgRgb(30, 41, 59)('Styled RGB Text'));
 
 ---
 
-## 📄 Lizenz
+## Lizenz
 
 MIT
